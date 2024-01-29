@@ -26,8 +26,9 @@ class Queue:
     def Show(self):
         if not self.IsEmpty():
             for item in self.queue:
-                print(item, end=' ')
-            print()
+
+                print(item, end='  ')
+                print()
         else:
             print("Queue is empty")
 
