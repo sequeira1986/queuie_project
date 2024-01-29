@@ -1,3 +1,10 @@
+"""Create a queue class for character values. implement the following operations:
+ IsEmpty-check if the queue is empty;
+ IsFull- check if the queue is full;
+ Enqueue- add an element to the queue;
+ Dequeue- delete an element from the queue;
+ Show - display all queue elements on the screen
+ When the app starts, display a menu that a user can use to choose the desired operation"""
 class Queue:
     def __init__(self, capacity=None):
         if capacity is None:
